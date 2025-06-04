@@ -1,0 +1,224 @@
+/* 
+JobBoard | Just another HTML Template
+
+Template Name: JobBoard
+Author: Dich Vu So
+Version: 1.0.0
+
+/************ TABLE OF CONTENTS ***************
+1. Fonts
+2. Reset
+3. Global
+4. Content Elements 
+5. Main Header / Two / Three / Four / Five
+6. Sticky Header
+7. Mobile Header
+8. Login Popup
+9. Page Title
+10. Section Title
+11. Banner Section / One to Ten
+12. Work Section
+13. Job Categories
+14. Job Section / Two / Three / Four / Five / Six
+15. Job Detail Section / Style two
+16. Features Section
+17. Testimonial Section / Two / Three / Four
+18. Clients Section / Two
+19. About Section / Two / Three
+20. Fun Fact Section
+21. Recruiter Section 
+22. Jobseeker Section
+23. Candidates Section / Two
+24. Candidate Detail Section
+25. Listing Section 
+26. Listing Show More
+27. Listing Pagination
+28. Listing Section Two / Three / Four
+29. Listing Maps
+30. Top Companies
+31. Ads Section
+32. Registeration Banners
+33. News Section / Two / Three
+34. Blog Grid
+35. Blog Single
+36. Products Section
+37. Shop Single
+38. Product Tabs
+39. Cart Section
+40. CheckOut Page
+41. Order Slip
+42. App Section
+43. Pricing Section
+44. Process Section
+45. steps Section
+46. Call To Action / Two / Three / Four
+47. Browse Jobs
+48. Subscribe Section / Two
+49. Faqs Section
+50. TNC Section
+51. Map Section
+52. Contact Section
+53. Login Section
+54. Invoice Section
+55. Main Footer / Two / Three / Four / Five / Six
+56. Dashboard
+57. User Sidebar
+58. Chat Widget
+**********************************************/
+/*** 
+
+====================================================================
+Fonts
+====================================================================
+
+***/
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&subset=vietnamese");
+
+/*** 
+
+====================================================================
+Reset
+====================================================================
+
+***/
+
+
+/*** 
+
+====================================================================
+Global Settings
+====================================================================
+
+***/
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  font-size: 100%;
+}
+
+body {
+  font-size: 16px;
+  color: #363636;
+  line-height: 28px;
+  font-weight: 400;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+}
+
+/*** 
+
+====================================================================
+Content Elements
+====================================================================
+
+***/
+.z6525711230278-0fc2a9e59495474-icon {
+  width: 75.895px;
+  height: 70px;
+  flex-shrink: 0;
+  aspect-ratio: 75.89/70.00;
+}
+
+.thit-b-kim {
+  width: 109px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #808089;
+  text-align: left;
+}
+
+.ellipse-div {
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #ff4c58;
+  height: 16px;
+  top: -15px;
+  left: -7px;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 16px;
+}
+
+.hotline {
+  
+  position: relative;
+  right: -40%;
+}
+
+.hotline a {
+  color: #808089;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter;
+}
+.hotline strong {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Inter;
+}
+
+.imgtopdeal img{
+  width: 200px;
+
+}
+.cardsp img {
+   width: 100px;
+}
+
+.borderxanh {
+  border: 2px solid #2FC8EA !important;
+}
+
+
+/*** 
+
+====================================================================
+Main Header / Two / Three / Four / Five
+====================================================================
+
+***/
+
+header {
+  background: #2FC8EA;
+  height: 42px;
+}
+
+header .nng-lc-to {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+
+main {
+  margin-top:30px;
+  background-color: #F5F5FA;
+}
+
+.card {
+    background-color: #FFF;
+
+  }
+  
+
+/*** 
+
+====================================================================
+Sticky Header
+====================================================================
+
+***/
