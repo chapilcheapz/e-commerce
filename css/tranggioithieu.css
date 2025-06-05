@@ -1,0 +1,74 @@
+.anh11 img{
+width: 100%;
+
+}
+/* footer.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 6px;
+}
+
+.footer-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.brands {
+  margin: 10px 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.product-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.footer-column img {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px;
+  margin-right: 8px;
+  margin-top: 6px;
+  background-color: #fff;
+}
+.footer-column img:hover {
+  border-color: #007bff;
+}
