@@ -43,17 +43,6 @@ footer {
   margin-bottom: 6px;
 }
 
-.footer-info {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.brands {
-  margin: 10px 0;
-  font-size: 13px;
-  text-align: center;
-}
-
 .product-categories {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -72,3 +61,4 @@ footer {
 .footer-column img:hover {
   border-color: #007bff;
 }
+
