@@ -117,6 +117,7 @@ Content Elements
 ====================================================================
 
 ***/
+/*  */
 .z6525711230278-0fc2a9e59495474-icon {
   width: 75.895px;
   height: 70px;
@@ -149,7 +150,7 @@ Content Elements
 }
 
 .hotline {
-  
+
   position: relative;
   right: -40%;
 }
@@ -160,6 +161,7 @@ Content Elements
   font-weight: 500;
   font-family: Inter;
 }
+
 .hotline strong {
   color: black;
   font-size: 14px;
@@ -167,31 +169,95 @@ Content Elements
   font-family: Inter;
 }
 
-.imgtopdeal img{
+.imgtopdeal img {
   width: 200px;
 
 }
+
 .cardsp img {
-   width: 100px;
+  width: 100px;
 }
+
+.h-360 {
+    height: 360px;
+}
+
+.w-60 {
+    width: 60px !important;
+}
+.h-60 {
+    height: 60px !important;
+}
+
+
+/* Custom height */
+.h-400 {
+    height: 400px;
+}
+
+/* Custom widths */
+.w-182 {
+    width: 182px;
+}
+.w-140 {
+    width: 140px;
+}
+
+/* Custom heights */
+.h-100 {
+    height: 100px;
+}
+
+/* Custom font sizes */
+.fs-9 {
+    font-size: 9px;
+}
+.fs-10 {
+    font-size: 10px;
+}
+.fs-11 {
+    font-size: 11px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+
+/* Custom font weights */
+.fw-500 {
+    font-weight: 500;
+}
+.fw-light {
+    font-weight: 100;
+}
+
+/* Custom text color for the link */
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #2FC8EA !important;
+}
+
 
 .borderxanh {
   border: 2px solid #2FC8EA !important;
 }
+
 .timesale {
-  	
-  	position: relative;
-  	border-radius: 4px;
-  	background-color: #ff424e;
-  	height: 24px;
-    line-height: 24px;
-  	width: 20px;
-  	font-size: 10px;
-  	font-weight: 500;
-  	font-family: Inter;
-  	color: #fff;
-  	text-align: center;
-  	display: inline-block;
+
+  position: relative;
+  border-radius: 4px;
+  background-color: #ff424e;
+  height: 24px;
+  line-height: 24px;
+  width: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
 }
 
 .thanhsoluong {
@@ -207,7 +273,8 @@ Content Elements
 }
 
 .thanhsoluong2 {
-  width: 30%; /* chiều dài thanh tiến độ */
+  width: 30%;
+  /* chiều dài thanh tiến độ */
   height: 100%;
   background-color: #ff424e;
   border-radius: 8px;
@@ -220,28 +287,142 @@ Content Elements
 .soluongtext {
   color: white;
   font-size: 10px;
-  z-index: 2; /* để nằm trên thanh màu đỏ */
+  z-index: 2;
+  /* để nằm trên thanh màu đỏ */
 }
 
 .sale40 {
-  	width: 20%;
-  	position: relative;
-  	border-radius: 4px;
-  	background-color: #ffdbde;
-  	height: 22px;
-    color: #ff424e;
-    line-height:22px ;
+  width: 20%;
+  position: relative;
+  border-radius: 4px;
+  background-color: #ffdbde;
+  height: 22px;
+  color: #ff424e;
+  line-height: 22px;
 }
+
+.custom-flashsale-height {
+  height: 313px;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.border-primary-custom {
+  border-color: #2FC8EA !important;
+}
+
+.text-primary-custom {
+  color: #2FC8EA;
+}
+
+.img-sale {
+  width: 140px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.text-sale-price {
+  color: #FF424E;
+  font-size: 15px;
+}
+
+.fs-7 {
+  font-size: 10px;
+}
+
+
+/* <!-- Thương hiệu nổi bật --> */
 
 .thuonghieu {
-background: linear-gradient(0deg, #fff 28.37%, #d5ecfd);
+  background: linear-gradient(0deg, #fff 28.37%, #d5ecfd);
 
+}
+
+/* Chiều cao tổng thể khối thương hiệu */
+.custom-thuonghieu-height {
+  height: 343px;
+}
+
+/* Màu viền xanh đúng như yêu cầu */
+.border-primary-custom {
+  border-color: #2FC8EA !important;
+}
+
+/* Màu chữ liên kết */
+.text-primary-custom {
+  color: #2FC8EA;
+}
+
+/* Font Inter nếu đã import */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Kích thước từng box sản phẩm */
+.custom-box-width {
+  width: 182px;
+}
+
+/* Kích thước ảnh sản phẩm */
+.custom-img-size {
+  width: 140px;
+  height: 200px;
+}
+
+/* Nền trắng */
+.bg-white {
+  background-color: #fff !important;
+}
+
+
+.deal-item-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.deal-item-text {
+  margin-top: 0.25rem;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 
 
 
+/* Kích thước card tổng */
+.custom-card-height {
+  height: 400px;
+}
 
+/* Kích thước box chốt đơn */
+.custom-box-size {
+  width: 218px;
+  height: 175px;
+}
+
+/* Kích thước vùng ảnh */
+.custom-img-container {
+  width: 130px;
+  height: 120px;
+}
+
+/* Vị trí ảnh sản phẩm */
+.custom-product-img {
+  top: 0;
+  left: 50px;
+}
+
+/* Ưu tiên z-index (Bootstrap không có sẵn z-1/z-2, nên bạn tự định nghĩa) */
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
 
 
 /*** 
@@ -268,16 +449,17 @@ header .nng-lc-to {
 }
 
 
+
 main {
-  margin-top:30px;
+  margin-top: 30px;
   background-color: #F5F5FA;
 }
 
 .card {
-    background-color: #FFF;
+  background-color: #FFF;
 
-  }
-  
+}
+
 
 /*** 
 
@@ -286,3 +468,29 @@ Sticky Header
 ====================================================================
 
 ***/
+
+header {
+  background: #2FC8EA;
+  height: 42px;
+}
+
+header .nng-lc-to {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+
+main {
+  margin-top: 30px;
+  background-color: #F5F5FA;
+}
+
+.card {
+  background-color: #FFF;
+
+}
