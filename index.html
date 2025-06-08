@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Trang chủ</title>
-
 	<link rel="stylesheet" href="./vendors/node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./vendors/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" />
@@ -30,7 +29,7 @@
 		<!--  logo tìm kiếm -->
 		<div class="container">
 			<div class="row ">
-				<div class="col-12 col-md-1 me-5 ms-5">
+				<div class="flex-column flex-md-row col-12 col-md-1 me-5 ms-5">
 					<img class="z6525711230278-0fc2a9e59495474-icon mt-2" alt=""
 						src="./img/c5c6c5795ba1ef8750966077d973671036f441cb.jpg">
 				</div>
@@ -53,12 +52,12 @@
 							<span class="vr mx-2 d-inline-block align-self-center" style="height: 20px;"></span>
 
 							<!-- Search Text -->
-							<a class="text-warning mx-1 d-inline-block align-self-center  text-decoration-none"
-								style="font-size: 14px;" href="">Tìm kiếm</a>
+							<a class="text-warning mx-1 d-inline-block align-self-center  text-decoration-none fs-14"
+								href="">Tìm kiếm</a>
 						</div>
 					</div>
 
-					<nav class="navbar navbar-expand-lg">
+					<nav class=" navbar navbar-expand-lg">
 
 						<ul class="navbar-nav me-auto mb-2 ">
 							<li class="nav-item">
@@ -74,81 +73,80 @@
 								<a class="thit-b-kim text-decoration-none mt-1 me-3" href="">Thiết bị luân chuyển</a>
 							</li>
 						</ul>
-						<div class="hotline">
-							<img class="" src="/img/call.svg" alt="" style="width: 20px; height: 20px;">
-							<a class="text-decoration-none ms-1 mb-0 me-4" href="" style="font-size: 14px; ">Hotline:
-								<strong>09
-									3636
-									8731 </strong>
-							</a>
-						</div>
+
 					</nav>
 
 				</div>
 
 
 				<div class="col-12 col-md-3">
-					<div class="d-flex align-items-center mt-3 me-auto mb-2">
+					<div class="d-flex align-items-center mt-3 me-auto mb-2 flex-wrap">
 						<!-- Home -->
 						<div class="d-flex align-items-center me-3">
-							<img src="/img/Vector.svg" alt="icon" style="width: 20px; height: 20px;">
-							<a class="text-decoration-none text-warning ms-2 mb-0" href=""
-								style="font-size: 14px;">Trang
-								chủ</a>
+							<img src="/img/Vector.svg" alt="icon" class="icon-20">
+							<a class="text-decoration-none text-warning ms-2 link-14" href="">Trang chủ</a>
 						</div>
 
 						<!-- User -->
-						<div class="d-flex align-items-center me-1">
-							<img src="/img/user.svg" alt="icon" style="width: 20px; height: 20px;">
-							<a class="text-decoration-none ms-2 mb-0" href=""
-								style="color: #808089;font-size: 14px;">Tài
-								khoản</a>
+						<div class="d-flex align-items-center me-3">
+							<img src="/img/user.svg" alt="icon" class="icon-20">
+							<a class="text-decoration-none ms-2 text-muted link-14" href="">Tài khoản</a>
 						</div>
 
 						<!-- Divider -->
-						<span class="vr mx-3 d-inline-block align-self-center"
-							style="width: 2px ; height: 20px;"></span>
+						<span class="vr mx-3 align-self-center divider-vertical"></span>
+
 						<!-- Cart -->
-						<img src="/img/giohang.svg" alt="icon" style="width: 20px; height: 20px;">
-						<div class="ellipse-div">0</div>
+						<div class="position-relative d-flex align-items-center">
+							<img src="/img/giohang.svg" alt="icon" class="icon-20">
+							<div class="ellipse-div">0</div>
+						</div>
+					</div>
+
+					<div class="hotline mt-3 d-inline-block text-start hotline-transform">
+						<img src="/img/call.svg" alt="" class="icon-20">
+						<a class="text-decoration-none fs-11" href="">
+							Hotline: <strong>09 3636 8731</strong>
+						</a>
 					</div>
 				</div>
+
 
 			</div>
 		</div>
 		<!-- End logo tìm kiếm -->
-		<hr class="mt-0">
 
 		<!-- Cam kết -->
+		<hr class="mt-0">
+
 		<div class="container ">
 			<div class="row mt-0">
 				<div class="col-12 col-md-12">
-					<div class="d-flex align-items-center ms-5">
-						<p class="text-warning mb-0 me-4" style="font-size: 14px;">Cam kết</p>
+					<div class="d-flex flex-wrap align-items-center ms-5 my-camket">
+						<p class="text-warning mb-0 me-4 fs-15">Cam kết</p>
 						<!--  -->
-						<img class="me-2" style="width: 15px; height: 15px;" src="./img/hangthat.png" alt="Hàng thật">
-						<p class="mb-0 me-3" style="font-size: 12px;">100% hàng thật</p>
-						<div class="vr me-3 d-inline-block align-self-center" style="height: 15px;"></div>
+						<img class="me-2" src="./img/hangthat.png" alt="Hàng thật">
+						<p class="mb-0 me-3">100% hàng thật</p>
+						<div class="vr me-3 d-inline-block align-self-center"></div>
 						<!--  -->
-						<img class="me-2" style="width: 15px; height: 15px;" src="./img/freeship.png" alt="Hàng thật">
-						<p class="mb-0 me-3" style="font-size: 12px;">Freeship mọi đơn</p>
-						<div class="vr me-3 d-inline-block align-self-center" style="height: 15px;"></div>
+						<img class="me-2" src="./img/freeship.png" alt="Hàng thật">
+						<p class="mb-0 me-3">Freeship mọi đơn</p>
+						<div class="vr me-3 d-inline-block align-self-center"></div>
 						<!--  -->
-						<img class="me-2" style="width: 15px; height: 15px;" src="./img/doitra.png" alt="Hàng thật">
-						<p class="mb-0 me-3" style="font-size: 12px;">Hoàn 200% nếu hàng giả</p>
-						<div class="vr me-3 d-inline-block align-self-center" style="height: 15px;"></div>
+						<img class="me-2" src="./img/doitra.png" alt="Hàng thật">
+						<p class="mb-0 me-3">Hoàn 200% nếu hàng giả</p>
+						<div class="vr me-3 d-inline-block align-self-center"></div>
 						<!--  -->
-						<img class="me-2" style="width: 15px; height: 15px;" src="./img/30ngaydoitra.png"
-							alt="Hàng thật">
-						<p class="mb-0 me-3" style="font-size: 12px;">30 ngày đổi trả</p>
-						<div class="vr me-3 d-inline-block align-self-center" style="height: 15px;"></div>
+						<img class="me-2" src="./img/30ngaydoitra.png" alt="Hàng thật">
+						<p class="mb-0 me-3">30 ngày đổi trả</p>
+						<div class="vr me-3 d-inline-block align-self-center"></div>
 						<!--  -->
-						<img class="me-2" style="width: 15px; height: 15px;" src="./img/freeship.png" alt="Hàng thật">
-						<p class="mb-0 me-3" style="font-size: 12px;">Giao nhanh 2h</p>
-						<div class="vr me-3 d-inline-block align-self-center" style="height: 15px;"></div>
+						<img class="me-2" src="./img/freeship.png" alt="Hàng thật">
+						<p class="mb-0 me-3">Giao nhanh 2h</p>
+						<div class="vr me-3 d-inline-block align-self-center"></div>
 						<!--  -->
-						<img class="me-2" style="width: 15px; height: 15px;" src="./img/voucher.png" alt="Hàng thật">
-						<p class="mb-0 me-3" style="font-size: 12px;">Giá siêu rẻ</p>
+						<img class="me-2" src="./img/voucher.png" alt="Hàng thật">
+						<p class="mb-0 me-3">Giá siêu rẻ</p>
 
 					</div>
 				</div>
@@ -164,15 +162,14 @@
 		<div class="row">
 			<div class="col-12 d-flex align-items-center">
 				<!-- Ảnh 1: lớn hơn -->
-				<div class="ms-5 me-4" style="width: 60%; height: 300px; overflow: hidden; border-radius: 5px;">
-					<img src="./img/banner.png" alt="Banner 2" style="width: 100%; height: 100%; object-fit: cover;">
+				<div class="banner-large ms-5 me-4">
+					<img src="./img/banner.png" alt="Banner 1" class="banner-img">
 				</div>
 
 				<!-- Ảnh 2: nhỏ hơn -->
-				<div style="width: 400px; height: 300px; overflow: hidden; border-radius: 5px;">
-					<img src="./img/banner2.png" alt="Banner 2" style="width: 100%; height: 100%; object-fit: cover;">
+				<div class="banner-small">
+					<img src="./img/banner2.png" alt="Banner 2" class="banner-img">
 				</div>
-
 			</div>
 
 
@@ -243,133 +240,139 @@
 
 			<!-- Danh mục  -->
 			<div class="danhmuc row mx-auto">
-				<div class="col-12 col-md-11 mb-4 mt-5 ms-5">
-					<div class="card border-0 rounded-3 w-100 h-360">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="my-danhmuc card border-0 rounded-3 w-100 h-360 mt-4">
 						<strong class="p-4">Danh mục</strong>
 						<hr class="mt-0 mb-0">
 
 						<!-- First card-body (10 items) -->
 						<div class="card-body d-flex flex-wrap justify-content-between gap-0 p-0">
 							<!-- Each item -->
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
 
 							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
-								<img src="./img/dienthoại.png" alt="" class="w-60 h-60 rounded-3">
-								<div class="mt-1 fw-semibold small">Thời trang nam</div>
-							</div>
-
-							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
-								<img src="./img/tivi.png" alt="" class="w-60 h-60 rounded-3">
-								<div class="mt-1 fw-semibold small">Thời trang nam</div>
-							</div>
-
-							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
-								<img src="./img/maytinh.png" alt="" class="w-60 h-60 rounded-3">
-								<div class="mt-1 fw-semibold small">Thời trang nam</div>
-							</div>
-
-							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
-								<img src="./img/mayanh.png" alt="" class="w-60 h-60 rounded-3">
-								<div class="mt-1 fw-semibold small">Thời trang nam</div>
-							</div>
-
-							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
-								<img src="./img/dongho.png" alt="" class="w-60 h-60 rounded-3">
-								<div class="mt-1 fw-semibold small">Thời trang nam</div>
-							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
-
-							<div class="col-auto text-center p-2 mt-4">
+							<!-- Each item -->
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
+
 							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
+
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
+								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
+								<div class="mt-1 fw-semibold small">Thời trang nam</div>
+							</div>
+
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
+								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
+								<div class="mt-1 fw-semibold small">Thời trang nam</div>
+							</div>
+
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
+								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
+								<div class="mt-1 fw-semibold small">Thời trang nam</div>
+							</div>
+
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
+								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
+								<div class="mt-1 fw-semibold small">Thời trang nam</div>
+							</div>
+
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
+								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
+								<div class="mt-1 fw-semibold small">Thời trang nam</div>
+							</div>
+
 						</div>
 
 						<hr class="mt-0 mb-0">
 
 						<!-- Second card-body (10 items) -->
 						<div class="card-body d-flex flex-wrap justify-content-between gap-0 p-0">
-							<div class="col-auto text-center p-2 mt-4">
+							<!-- Each item -->
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
 
 							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
+							<!-- Each item -->
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
 
 							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
+
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
 
 							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
 
 							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
 
 							<div class="vr m-0 h-100 align-self-stretch"></div>
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
-							<div class="vr m-0 h-100 align-self-stretch"></div>
 
-							<div class="col-auto text-center p-2 mt-4">
+							<div class="vr m-0 h-100 align-self-stretch"></div>
+							<div class="category-item col-auto text-center p-2 mt-4">
 								<img src="./img/áo.png" alt="" class="w-60 h-60 rounded-3">
 								<div class="mt-1 fw-semibold small">Thời trang nam</div>
 							</div>
@@ -384,7 +387,7 @@
 
 			<!-- Top deal -->
 			<div class="row mx-auto">
-				<div class="col-12 col-md-11 mb-4 mt-2 ms-5">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
 					<div class="card border-0 rounded-3 p-3 w-100 h-400">
 						<div class="imgtopdeal d-flex">
 							<img src="./img/topdeal.png" alt="">
@@ -899,13 +902,793 @@
 			<!-- End chốt đơn -->
 
 
+			<!-- Bạn có thể thích -->
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="card border-0 rounded-3 p-3 w-100 h-400">
+						<div class="imgtopdeal d-flex">
+							<p class="me-2 fw-semibold fs-6 font-inter mb-0">Bạn có thể thích</p>
+							<li class="nav-item ms-auto me-3 mt-2 list-unstyled">
+								<a href="" class="text-decoration-none text-primary"
+									style="--bs-text-opacity: 1; color: #2FC8EA !important;" class="fs-14">Xem tất
+									cả</a>
+							</li>
+						</div>
+						<div class="d-flex flex-wrap gap-2 justify-content-start">
+							<!-- Product Card (repeated 6 times) -->
+							<div class="borderxanh border rounded-3 p-3 mt-2 w-182"
+								style="--bs-border-opacity: 1; border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 w-182"
+								style="--bs-border-opacity: 1; border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 w-182"
+								style="--bs-border-opacity: 1; border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 w-182"
+								style="--bs-border-opacity: 1; border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 w-182"
+								style="--bs-border-opacity: 1; border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 w-182"
+								style="--bs-border-opacity: 1; border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
 
 
 
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Bạn có thể thích -->
+
+
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="thetrang p-3 w-100 h-100">
+						<div class="imgtopdeal d-flex">
+							<p class="me-2 fw-semibold fs-6 font-inter mb-3">Gợi ý hôm nay</p>
+						</div>
+
+						<div class="d-flex">
+							<div class="carduser active">
+								<div class="anhuser" style="background-color: #0A61A6;">
+									<img src="./img/icuser.png" alt="">
+								</div>
+								<p class="text-dark">Dành cho bạn</p>
+							</div>
+							<!-- Các card khác -->
+							<div class="carduser active">
+								<div class="anhuser" style="background-color: #0A61A6;">
+									<img src="./img/icuser.png" alt="">
+								</div>
+								<p class="text-dark">Dành cho bạn</p>
+							</div>
+							<!-- Các card khác -->
+							<div class="carduser active">
+								<div class="anhuser" style="background-color: #0A61A6;">
+									<img src="./img/icuser.png" alt="">
+								</div>
+								<p class="text-dark">Dành cho bạn</p>
+							</div>
+							<!-- Các card khác -->
+							<div class="carduser active">
+								<div class="anhuser" style="background-color: #0A61A6;">
+									<img src="./img/icuser.png" alt="">
+								</div>
+								<p class="text-dark">Dành cho bạn</p>
+							</div>
+							<!-- Các card khác -->
+							<div class="carduser active">
+								<div class="anhuser" style="background-color: #0A61A6;">
+									<img src="./img/icuser.png" alt="">
+								</div>
+								<p class="text-dark">Dành cho bạn</p>
+							</div>
+							<!-- Các card khác -->
+							<div class="carduser active">
+								<div class="anhuser" style="background-color: #0A61A6;">
+									<img src="./img/icuser.png" alt="">
+								</div>
+								<p class="text-dark">Dành cho bạn</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="d-flex">
+						<div class="banner3 me-4 mt-2">
+							<img class="rounded-3" src="./img/banner3.png" alt="" height="320">
+						</div>
+						<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-4 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="d-flex">
+						<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-5 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-5 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-4 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-5 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-5 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-5 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-5 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							
+
+							
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="d-flex">
+						<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-4 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							
+
+							
+					</div>
+				</div>
+			</div>
 
 
 
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="d-flex">
+						<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
 
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-4 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							
+
+							
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row mx-auto">
+				<div class="col-12 col-md-11 mb-4 mt-2 ms-md-5">
+					<div class="d-flex">
+						<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-4 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+							<div class="borderxanh border rounded-3 p-3 mt-2 me-4 w-182 bg-white"
+								style=" border-color: #2FC8EA !important;">
+								<div class="text-center mb-4 mt-4">
+									<img src="./img/giatreo.png" alt="Sản phẩm" class="w-140 h-100">
+								</div>
+								<p class="mb-2 fs-9 fw-500 text-dark"
+									title="Combo sách - Biến mọi thứ thành tiền - quyển 1+2">
+									Combo sách - biến mọi thứ thành tiền - quyển 1+2 -...
+								</p>
+								<div class="mb-1">
+									<strong class="text-danger fs-15">541.000₫</strong>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<span class="badge bg-light text-dark me-2 rounded-pill fs-10">-21%</span>
+									<span class="text-muted text-decoration-line-through fs-10 fw-light">681.000₫</span>
+								</div>
+								<p class="text-muted small mb-2 fs-11">Made in China</p>
+							</div>
+
+
+							
+
+							
+					</div>
+				</div>
+			</div>
+
+
+			
 
 
 
@@ -919,6 +1702,175 @@
 			<!--  -->
 		</div>
 	</main>
+
+
+	<footer class="container" style="background-color: #ffff;">
+		<div class="footer-container ms-0">
+			<div class="footer-column">
+				<h5 class="mb-4">Hỗ trợ khách hàng</h5>
+				<p>Hướng dẫn đặt hàng</p>
+				<p>Phương thức vận chuyển</p>
+				<p>Chính sách khách hàng</p>
+				<p>Chính sách đổi trả</p>
+				<p>Hướng dẫn trả góp</p>
+				<p>Chính sách hàng nhập khẩu</p>
+
+			</div>
+
+			<div class="footer-column">
+				<h5 class="mb-4">Về H-GROUP</h5>
+				<p>Giới thiệu</p>
+				<p>Chính sách bảo mật thanh toán</p>
+				<p>Chính sách bảo mật thông tin cá nhân</p>
+				<p>Chính sách giải quyết khiếu nại</p>
+				<p>Điều khoản sử dụng</p>
+				<p>Điều kiện vận chuyển</p>
+
+			</div>
+
+			<div class="footer-column">
+				<h5>Phương thức thanh toán</h5>
+				<img src="./img/visa.png" alt="Phương thức thanh toán" width="40">
+				<img src="./img/mastercard.png" alt="Phương thức thanh toán" width="40">
+				<img src="./img/meatror.png" alt="Phương thức thanh toán" width="40">
+				<img src="./img/american.png" alt="Phương thức thanh toán" width="40">
+				<br>
+				<img src="./img/american.png" alt="Phương thức thanh toán" width="40">
+				<img src="./img/paypal.png" alt="Phương thức thanh toán" width="40">
+			</div>
+
+			<div class="footer-column">
+				<h5>Kết nối với chúng tôi</h5>
+				<div class="social-icons">
+					<img src="./img/ketnoi1.jpeg" alt="Kết nối với chúng tôi" width="40">
+					<img src="./img/ketnoi2.png" alt="Kết nối với chúng tôi" width="40" height="40">
+					<img src="./img/ketnoi3.png" alt="Kết nối với chúng tôi" width="40">
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="footer-info">
+			<h3>CÔNG TY CỔ PHẦN H-GROUP</h3>
+			<p>Số 12 ngõ 942 đường Láng, phường Láng Thượng, quận Đống Đa, Thành phố Hà Nội, Việt Nam</p>
+			<p>Hotline: 02485822195 / 09 3863 8731</p>
+			<p>Email: sales@lavme.vn, huutaamtupm@gmail.com</p>
+		</div>
+
+		<hr>
+
+		<div class="brands">
+			<h3>Thương Hiệu Nổi Bật</h3>
+			<p>vascara / dior / esteelauder / th truemilk / barbie / owen / ensure / durex / bioderma / elly / milo /
+				skechers / aldo / triumph / nutifood / kindle / nerman / wacom / anessa / yoosee / olay / similac /
+				comfort / bitas / shiseido / langfarm / hukan / vichy / fila / tsubaki</p>
+		</div>
+
+		<hr>
+
+		<div class="brands">
+			<h3>Thương Hiệu Nổi Bật</h3>
+			<p>vascara / dior / esteelauder / th truemilk / barbie / owen / ensure / durex / bioderma / elly / milo /
+				skechers / aldo / triumph / nutifood / kindle / nerman / wacom / anessa / yoosee / olay / similac /
+				comfort / bitas / shiseido / langfarm / hukan / vichy / fila / tsubaki</p>
+		</div>
+
+		<div class="product-categories">
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+			<div>
+				<h4>Đồ Chơi - Mẹ & Bé</h4>
+				<p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai, sau
+					sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực phẩm ăn dặm
+					/ Chuẩn bị mang thai</p>
+			</div>
+		</div>
+
+	</footer>
 
 	<!-- Bootstrap Bundle with Popper -->
 	<script src="./vendors/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
