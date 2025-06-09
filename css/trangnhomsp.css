@@ -1,99 +1,92 @@
-.divcon {
-  width: 1400px;
-  height: 70px;
-  flex-shrink: 0;
-  background-color: white;
-  border-radius: 8px;
+.commitment-title {
+  min-width: 80px;
 }
-.thetentrangchu {
-  color: #808089;
-  font-family: Inter;
+
+.commitment-icon {
+  width: 20px;
+  height: auto;
+}
+
+.breadcrumb-wrapper {
+  padding: 8px 16px;
+  border-radius: 0.5rem;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  background-color: transparent;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
-.thediengiadung {
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.breadcrumb .active {
   color: #000;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
-.banner1 {
-  width: 600px;
-  height: 185px;
-  flex-shrink: 0;
+
+.category-title-wrapper {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 12px 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  height: 60px;
 }
-.banner2 {
-  margin-left: 70px;
-  width: 600px;
-  height: 185px;
-  flex-shrink: 0;
+
+.category-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
 }
-.banner {
-  display: flex;
+
+main {
+  margin-top: -15px;
 }
-.thedanhmuc1 .col-auto {
-  margin-left: 30px;
-  margin-right: 50px;
+
+.carousel-item > .row > .col-md-6 img {
+  width: 100%;
+  border-radius: 10px;
 }
-.danhmuc1 {
-  width: 1000px;
-  height: 170px;
-  flex-shrink: 0;
-  background-color: white;
-  border-radius: 8px;
+
+.carousel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10 30px;
 }
-.category-img {
-  width: 100px;
+
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 40px;
   height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.category-section {
+  background-color: #f2f3fc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.category-item {
+
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.category-item img {
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #eee;
-  padding: 5px;
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-.theacuadanhmuc {
-  color: #000;
-  text-align: center;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.thelocsanpham {
+.thedanhmuc1{
   background-color: white;
-  width: 1340px;
-  margin-left: -20px;
 }
-.noidung {
-  width: 1350px;
-  margin-left: 280px;
-  background-color: white;
-  display: flex;
-}
-.themenunoidung {
-  width: 240px;
-  height: 960px;
-  flex-shrink: 0;
-}
-.noidung2 {
-  margin-left: 1000px;
-}
-.thedivnoidung {
-  width: 159px;
-  height: 320px;
-  flex-shrink: 0;
-  background-color: white;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  padding: 10px 30px;
-  text-align: center;
-  transition: transform 0.2s;
-  height: 100%;
 
-}
