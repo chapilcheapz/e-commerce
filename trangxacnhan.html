@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trang nhom san pham</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/trangxacnhan.css">
+    <link rel="stylesheet" href="./vendors/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./vendors/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" />
+</head>
+
+<body>
+    <section class="my-header">
+        <!--  -->
+        <header class="py-0">
+            <div class="container-fluid h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <div class="text-white fw-medium fs-6 fs-md-5 lh-1">
+                            Năng lực tạo nên giá trị - Chuyên sâu cho từng sản phẩm
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--  logo tìm kiếm -->
+        <div class="container py-3">
+            <div class="row align-items-start">
+                <!-- Logo -->
+                <div class="col-12 col-md-1 mb-3 mb-md-0 text-center">
+                    <img src="./img/c5c6c5795ba1ef8750966077d973671036f441cb.jpg" alt="Logo" class="img-fluid mt-2"
+                        style="max-height: 60px" />
+                </div>
+
+                <!-- Search and Navigation -->
+                <div class="col-12 col-md-7 mb-3 mb-md-0">
+                    <!-- Search -->
+                    <div class="input-group border rounded px-2 mb-2">
+                        <span class="input-group-text bg-transparent border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </span>
+                        <input type="text" class="form-control border-0 shadow-none" placeholder="30 ngày đổi trả" />
+                        <span class="vr mx-2 d-none d-md-inline-block"></span>
+                        <a class="text-warning d-none d-md-inline-block text-decoration-none fs-6" href="#">Tìm kiếm</a>
+                    </div>
+
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-md p-0">
+                        <div class="collapse navbar-collapse show">
+                            <ul class="navbar-nav flex-wrap">
+                                <li class="nav-item">
+                                    <a class="nav-link px-2 text-dark" href="#">Thiết bị kiểm tra</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2 text-dark" href="#">Thiết bị đo lường</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2 text-dark" href="#">Thiết bị nâng hạ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2 text-dark" href="#">Thiết bị luân chuyển</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- User, Cart, Hotline -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex flex-wrap align-items-center justify-content-md-end gap-3 mb-2">
+                        <!-- Home -->
+                        <div class="d-flex align-items-center">
+                            <img src="/img/Vector.svg" alt="icon" class="icon-20" />
+                            <a class="text-decoration-none text-warning ms-2" href="#">Trang chủ</a>
+                        </div>
+
+                        <!-- User -->
+                        <div class="d-flex align-items-center">
+                            <img src="/img/user.svg" alt="icon" class="icon-20" />
+                            <a class="text-decoration-none text-muted ms-2" href="#">Tài khoản</a>
+                        </div>
+
+                        <!-- Cart -->
+                        <div class="position-relative d-flex align-items-center">
+                            <img src="/img/giohang.svg" alt="icon" class="icon-20" />
+                            <div class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                style="font-size: 12px">
+                                0
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-2">
+                            <img src="/img/call.svg" alt="call" class="icon-20 me-2" />
+                            <a class="text-decoration-none fs-6" href="#">
+                                Hotline: <strong>09 3636 8731</strong>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Hotline -->
+                </div>
+            </div>
+        </div>
+
+        <!-- End logo tìm kiếm -->
+
+        <!-- Cam kết -->
+        <hr class="mt-0" />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div
+                        class="commitment-section d-flex flex-wrap align-items-center justify-content-start gap-4 py-3 px-2">
+                        <p class="commitment-title text-warning fw-bold mb-0 fs-6">
+                            Cam kết
+                        </p>
+
+                        <div class="commitment-item d-flex align-items-center gap-2">
+                            <img src="./img/hangthat.png" alt="Hàng thật" class="commitment-icon" />
+                            <span class="fs-6">100% hàng thật</span>
+                        </div>
+
+                        <div class="commitment-item d-flex align-items-center gap-2">
+                            <img src="./img/freeship.png" alt="Freeship" class="commitment-icon" />
+                            <span class="fs-6">Freeship mọi đơn</span>
+                        </div>
+
+                        <div class="commitment-item d-flex align-items-center gap-2">
+                            <img src="./img/doitra.png" alt="Hoàn tiền" class="commitment-icon" />
+                            <span class="fs-6">Hoàn 200% nếu hàng giả</span>
+                        </div>
+
+                        <div class="commitment-item d-flex align-items-center gap-2">
+                            <img src="./img/30ngaydoitra.png" alt="30 ngày đổi trả" class="commitment-icon" />
+                            <span class="fs-6">30 ngày đổi trả</span>
+                        </div>
+
+                        <div class="commitment-item d-flex align-items-center gap-2">
+                            <img src="./img/freeship.png" alt="Giao nhanh" class="commitment-icon" />
+                            <span class="fs-6">Giao nhanh 2h</span>
+                        </div>
+
+                        <div class="commitment-item d-flex align-items-center gap-2">
+                            <img src="./img/voucher.png" alt="Voucher" class="commitment-icon" />
+                            <span class="fs-6">Giá siêu rẻ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <!-- End Cam kết -->
+    </section>
+    <!-- start main -->
+    <main>
+        <div class="container">
+            <h5 class="mb-4">Xác nhận đơn hàng</h5>
+
+            <div class="confirmation-card">
+                <div class="confirmation-icon">
+                    <img src="./img/Group 236.png" alt="">
+                </div>
+                <div class="confirmation-title">Đặt hàng thành công</div>
+                <p class="mt-3">
+                    Cảm ơn Quý khách đã mua hàng tại GINS. Chúng tôi sẽ liên hệ với bạn sớm nhất có thể. Mọi thông tin
+                    cần hỗ trợ xin liên hệ:
+                </p>
+                <span class="confirmation-phone">Hotline: 09 3636 8731</span>
+                <a href="#" class="confirmation-link">Xem chi tiết đơn hàng</a>
+            </div>
+        </div>
+        <br><br><br>
+    </main>
+    
+
+    <!-- end main -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Hỗ trợ khách hàng</h4>
+                <ul>
+                    <li>Hướng dẫn đặt hàng</li>
+                    <li>Phương thức vận chuyển</li>
+                    <li>Chính sách khách hàng</li>
+                    <li>Chính sách đổi trả</li>
+                    <li>Hướng dẫn trả góp</li>
+                    <li>Chính sách hàng nhập khẩu</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Về H-GROUP</h4>
+                <ul>
+                    <li>Giới thiệu</li>
+                    <li>Chính sách bảo mật thanh toán</li>
+                    <li>Chính sách bảo mật thông tin cá nhân</li>
+                    <li>Chính sách giải quyết khiếu nại</li>
+                    <li>Điều khoản sử dụng</li>
+                    <li>Điều kiện vận chuyển</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Phương thức thanh toán</h4>
+                <img src="./img/thanhtoan3.jpeg" alt="Phương thức thanh toán" width="40">
+                <img src="./img/thanhtoan1.png" alt="Phương thức thanh toán" width="40">
+                <img src="./img/thanhtoan2.png" alt="Phương thức thanh toán" width="40">
+                <img src="./img/thanhtoan4.png" alt="Phương thức thanh toán" width="70">
+            </div>
+            <div class="footer-column">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="social-icons">
+                    <img src="./img/ketnoi1.jpeg" alt="Kết nối với chúng tôi" width="40">
+                    <img src="./img/ketnoi2.png" alt="Kết nối với chúng tôi" width="40">
+                    <img src="./img/ketnoi3.png" alt="Kết nối với chúng tôi" width="40">
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <p><strong>CÔNG TY CỔ PHẦN H-GROUP</strong></p>
+                <p>Số 12 ngõ 942 đường Láng, phường Láng Thượng, quận Đống Đa, Thành phố Hà Nội, Việt Nam</p>
+                <p>Hotline: 02485822195 / 09 3863 8731</p>
+                <p>Email: sales@lavme.vn, huutaamtupm@gmail.com</p>
+            </div>
+
+            <div class="brands">
+                <p>Thương Hiệu Nổi Bật</p>
+                <p>vascara / estore/ estoredulear/ tn truemilk / barbie / owen / ensure / durex / bioderma / elly / mio
+                    / skechers / aldo / triumph / vichy / fila / tsubaki</p>
+            </div>
+
+            <div class="product-categories">
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+                <div>
+                    <h4>Đồ Chơi - Mẹ & Bé</h4>
+                    <p>Thời Trang Cho Mẹ Và Bé / Đồ chơi / Đồ dùng cho bé / Chăm sóc nhà cửa / Chăm sóc mẹ mang thai,
+                        sau sinh / Dinh dưỡng cho bé / Tã, Bỉm / Dinh dưỡng cho người lớn / Dinh dưỡng cho mẹ / Thực
+                        phẩm ăn dặm / Chuẩn bị mang thai</p>
+                </div>
+            </div>
+
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>

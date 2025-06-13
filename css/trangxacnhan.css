@@ -1,0 +1,39 @@
+.confirmation-card {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.confirmation-icon {
+  font-size: 50px;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+.confirmation-title {
+  color: #00bcd4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.confirmation-phone {
+  font-weight: bold;
+  color: #00bcd4;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.confirmation-link {
+  color: orange;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.confirmation-link:hover {
+  text-decoration: underline;
+}
