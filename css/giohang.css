@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+
+}
+
+th {
+    background-color: #2FC8EA;
+    color: white;
+}
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Căn trái */
+}
+
+img {
+    max-width: 100px;
+    /* Kích thước tối đa của ảnh */
+    height: auto;
+    margin-right: 10px;
+    /* Khoảng cách giữa ảnh và tên sản phẩm */
+}
+
+.price {
+    color: red;
+    /* Đặt màu cho giá */
+}
+
+.delete-button {
+    background-color: white;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.delete-button img {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 16.7px;
+}
+
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+    /* Không có đường viền dưới cho phần cuối cùng */
+}
+
+.cart-item h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.total {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.checkout-button {
+    background-color: #2fc8ea;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+
+.quantity .btn {
+    border: 1px solid #EEEEEE;
+    background: white;
+    color: #666;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity .btn:hover {
+    background: #f8f9fa;
+    border-color: #EEEEEE;
+}
+
+.quantity input {
+    border: 1px solid #EEEEEE;
+    height: 30px;
+    width: 40px !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.quantity input:focus {
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
+    width: 100px; /* Đặt chiều rộng cố định */
+}
+
+.quantity-controls button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000; /* Màu chữ cho nút */
+    padding: 0 10px; /* Khoảng cách giữa nút và ô input */
+}
+
+.quantity-controls input {
+    width: 30px; /* Điều chỉnh kích thước ô input */
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 0; /* Không cần margin */
+}
+
+.quantity-controls button:hover {
+    color: #007bff; /* Màu chữ khi hover */
+}
+
+.quantity-controls input::-webkit-inner-spin-button, 
+.quantity-controls input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Ẩn nút tăng/giảm của input */
+}
